@@ -1,2 +1,2 @@
 # Personal-portfolio
-In this I have given all the work so far, I have done.
+In this portfolio website i have given all information about me and also I hahve added the projects ,certifications till now i have completed.

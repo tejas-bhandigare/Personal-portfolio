@@ -1,0 +1,134 @@
+
+#grad{
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+
+.container{
+    display: flex;
+
+}
+.nav{
+    padding-top: 2px;
+    padding-bottom: 1%;
+    font-size: 20px;
+    list-style: none;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+       
+}
+.nav li{
+    display: inline;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.pic{
+
+    height: 450px;
+    width: 450px;
+    /* border-radius: 2px solid black; */
+    border: 2px solid black;
+    border-radius: 30% 70% 30% 70% / 30% 30% 70% 70%;
+    /* margin-right: 60px; */
+   margin: 30px  ; 
+   padding-top:0px;
+    
+}
+.mid{
+    padding-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 15px;
+   
+}
+
+.img{
+    padding-top: 20px;
+    margin-right: 0%;
+}
+
+.name{
+    padding-top: 10%;
+}
+
+ #insta{
+    height: 45px;
+    width: 45px;
+}
+
+#linkd{
+    height: 41px;
+    width: 40px; 
+}
+#gitb{
+    height: 41px;
+    width: 40px;  
+    padding: 2px;
+}
+.about{
+    border: 2px solid black;
+    padding: 0px;
+    margin-top: 0%;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 35px;
+}
+.name h1{
+    color: black;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(0, 0, 0); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 90% }
+  }
+
+  
+/* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(7, 7, 7)  }
+  }
+
+.project{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding-top: 0;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.p1img{
+    
+    height:270px;
+    width:230px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 60px;
+
+}
+
+.certify{
+    border: 2px solid black;
+    margin-right: 150px;
+    margin-left: 150px;
+   
+}
+
+.htm{
+    height: 300px;
+    width:260px;
+    margin: 60px;
+    border: 2px solid black;
+}
+
